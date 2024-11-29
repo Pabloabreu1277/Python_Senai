@@ -1,0 +1,2 @@
+pip install cx_Freeze
+cxfreeze TkinterCaluladoraDeNotas.py --target-dir SENAI_PYTHON_Project
