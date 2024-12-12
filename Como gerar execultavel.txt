@@ -1,5 +1,9 @@
 Primeiro abra o terminal do python
 
+Instale os pacotes 
+
+pip install cx_Freeze
+
 Depois digite os seguintes codigos:
 
 cxfreeze (nome_do_arquivo+extensao.py) --target-dir (nome da pasta nova que vai ser salvo o arq)
@@ -11,3 +15,9 @@ cxfreeze imc.py --target-dir calculadora-imc
 arquivo python seu codigo = imc.py
 
 Nome da pasta gerada dentro da mesma pasta que esta seus arq = calculadora-imc
+
+ou 
+
+pip install pyinstaller
+
+pyinstaller --onefile Aula_2_tkinter_hello.py -w
